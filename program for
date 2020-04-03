@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main () {
+	int angka_awal, angka_akhir;
+	// tugas bahasa pemrograman Nadia Amira Putri
+	cout << " menampilkan bilangan genap dan ganjil dari 100-1000 : " << endl;
+	cin >> angka_awal ;
+	
+	for ( int i = 100; i <= 1000; i++){
+		if ( i % 2 p== 1 ){
+			cout << i << " adalah bilangan genap " <<endl;
+		}else{
+			cout << i << " adalah bilangan ganjil " <<endl;
+		}
+	}
+}p
