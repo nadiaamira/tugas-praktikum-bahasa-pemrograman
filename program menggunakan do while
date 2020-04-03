@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main (){
+	// tugas perulangan nadia amira putri
+	char huruf = 'Y' ;
+	do {
+		cout << " masukkan 'N' untuk menghentikan perulangan "<< endl;
+		cout << " masukkan huruf 'Y' : ";
+		cin >> huruf ;
+	}while (huruf == 'Y');
+	return 0;
+}
