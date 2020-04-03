@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main () {
+	//tugas praktikum bahasa pemrograman
+	int i = 100 ;
+		cout << " masukkan angka dari 100-1000 : "<< endl;
+		cin >> i ;
+	while( i <= 1000 ){
+		if ( i % 2 == 1 ){
+			cout << i << " adalah bilanan ganjil " <<endl ; i++;
+		}else{
+			cout << i << " adalah bilangan genap " <<endl ; i++;
+		}
+	}
+}
